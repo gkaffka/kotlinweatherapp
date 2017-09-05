@@ -3,9 +3,6 @@ package com.kaffka.weatherapp.data
 import com.google.gson.Gson
 import java.net.URL
 
-/**
- * Created by kaffka on 7/29/2017.
- */
 class ForecastRequest(private val zipCode: String) {
 
     companion object {

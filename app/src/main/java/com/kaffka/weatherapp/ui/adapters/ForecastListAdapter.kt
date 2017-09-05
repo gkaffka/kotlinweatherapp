@@ -11,9 +11,7 @@ import com.kaffka.weatherapp.domain.model.ForecastList
 import com.kaffka.weatherapp.ui.utils.ctx
 import kotlinx.android.synthetic.main.item_forecast.view.*
 
-/**
- * Created by kaffka on 7/28/2017.
- */
+
 class ForecastListAdapter(private val weekForecast: ForecastList,
                           private val itemClick: (Forecast) -> Unit) :
         RecyclerView.Adapter<ForecastListAdapter.ViewHolder>() {

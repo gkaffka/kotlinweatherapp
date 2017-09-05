@@ -8,9 +8,7 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 import com.kaffka.weatherapp.domain.model.Forecast as ModelForecast
 
-/**
- * Created by gabrielkaffka on 04/09/17.
- */
+
 class ForecastDataMapper {
 
     fun convertFromDataModel(forecast: ForecastResult): ForecastList =

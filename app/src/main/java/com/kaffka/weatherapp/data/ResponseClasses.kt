@@ -1,8 +1,5 @@
 package com.kaffka.weatherapp.data
 
-/**
- * Created by gabrielkaffka on 04/09/17.
- */
 
 data class ForecastResult(val city: City, val list: List<Forecast>)
 
